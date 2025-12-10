@@ -2,7 +2,7 @@
 # For Backend check - https://github.com/vijaygowtham13/INI8_Server.git
 
 ### 🔗 Live Demo
-https://your-netlify-site.netlify.app  
+https://ini8-client.netlify.app/ 
 (API hosted on Railway, stays online)
 
 
