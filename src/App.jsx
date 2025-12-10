@@ -68,20 +68,20 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-50 flex items-center justify-center overflow-hidden relative">
-      {/* soft glow background orbs */}
+      
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 -left-20 h-72 w-72 rounded-full bg-sky-500/20 blur-3xl" />
         <div className="absolute -bottom-40 -right-10 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl" />
       </div>
 
       <div className="w-full max-w-3xl px-4 py-10">
-        {/* 3D card wrapper */}
+        
         <div className="relative transform-gpu transition-all duration-300 hover:-translate-y-2 hover:scale-[1.01] hover:shadow-[0_30px_80px_rgba(15,23,42,0.9)] shadow-[0_18px_45px_rgba(15,23,42,0.8)] rounded-3xl border border-slate-800/80 bg-slate-900/80 backdrop-blur-xl">
-          {/* top gradient line for depth */}
+          
           <div className="absolute inset-x-6 -top-px h-px bg-gradient-to-r from-sky-400/0 via-sky-400/80 to-emerald-400/0" />
 
           <div className="p-6 sm:p-8 space-y-6">
-            {/* header */}
+      
             <header className="flex items-center justify-between gap-3">
               <div>
                 <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight flex items-center gap-2">
@@ -105,7 +105,7 @@ function App() {
               </div>
             </header>
 
-            {/* toast / message */}
+            
             {message && (
               <div className="rounded-2xl border border-emerald-500/40 bg-emerald-500/10 px-4 py-2.5 text-sm text-emerald-50 shadow-lg shadow-emerald-500/20 flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-emerald-400" />
@@ -113,7 +113,7 @@ function App() {
               </div>
             )}
 
-            {/* upload card */}
+          
             <div className="grid gap-5 lg:grid-cols-[1.1fr,0.9fr] items-stretch">
               <form
                 onSubmit={handleUpload}
@@ -157,7 +157,7 @@ function App() {
                 </button>
               </form>
 
-              {/* small stats / 3D decorative panel */}
+              
               <div className="rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900/90 via-slate-900/60 to-slate-900/20 p-4 sm:p-5 flex flex-col justify-between transform-gpu transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-500/20">
                 <div className="space-y-3">
                   <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
@@ -191,7 +191,7 @@ function App() {
               </div>
             </div>
 
-            {/* documents list */}
+        
             <div className="space-y-3 pt-2">
               <div className="flex items-center justify-between gap-3">
                 <h2 className="text-sm font-semibold text-slate-100">
@@ -250,7 +250,7 @@ function App() {
           </div>
         </div>
 
-        {/* tiny footer */}
+        
         <p className="mt-4 text-[10px] text-center text-slate-500">
           Built for INI8 Labs 
         </p>
