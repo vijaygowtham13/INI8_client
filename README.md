@@ -33,12 +33,16 @@ Open → http://localhost:5173
 
 Please make sure the backend is running.
 
- ## Expected Backend API
-# Method	   Endpoint	         Action
-POST	   /documents/upload	Upload PDF
-GET	       /documents	        List PDFs
-GET	       /documents/:id	    Download
-DELETE	   /documents/:id	    Delete
+ 
+## Expected Backend API
+
+| Method | Endpoint             | Action      |
+|--------|-----------------------|-------------|
+| POST   | /documents/upload     | Upload PDF  |
+| GET    | /documents            | List PDFs   |
+| GET    | /documents/:id        | Download    |
+| DELETE | /documents/:id        | Delete      |
+
 
 Backend repo → https://github.com/vijaygowtham13/INI8_Server.git
 
